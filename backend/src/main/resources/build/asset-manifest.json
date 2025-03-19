@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.710d5dbf.css",
+    "main.js": "/static/js/main.256c43a6.js",
+    "static/media/SampleBurndownChart.svg.png": "/static/media/SampleBurndownChart.svg.41ef0179a4af495d7061.png",
+    "index.html": "/index.html",
+    "main.710d5dbf.css.map": "/static/css/main.710d5dbf.css.map",
+    "main.256c43a6.js.map": "/static/js/main.256c43a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.710d5dbf.css",
+    "static/js/main.256c43a6.js"
+  ]
+}
