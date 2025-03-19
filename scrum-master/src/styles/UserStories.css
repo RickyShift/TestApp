@@ -1,0 +1,85 @@
+.app {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.board-main-content {
+  padding: 0 30px;
+}
+
+.board-title{
+  text-align: center;
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 15px; /* Default for 1326x520 */
+    margin-top: 10px; /* Default for 1326x520 */
+    cursor: default;
+}
+
+.board-controls {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.board-controls input, .board-controls select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.board-task-board {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  h3{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 18px;
+  }
+}
+
+.board-task-column {
+  flex: 1;
+  background: rgb(234, 231, 231);
+  box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.5);
+  padding: 15px;
+  border-radius: 8px;
+  min-height: 300px;
+  max-height: 350px;
+}
+
+@media (min-width: 1440px) {
+  .board-task-column {
+    max-height: 770px;
+    min-height: 400px;
+  }
+}
+
+.board-task-container{
+  overflow: scroll;
+  overflow-x: hidden;
+  max-height: 250px;
+}
+
+@media (min-width: 1440px) {
+  .board-task-container {
+    max-height: 690px;
+  }
+}
+
+.board-task-card {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: grab;
+}
+
+.board-task-card p {
+  margin: 5px 0;
+}

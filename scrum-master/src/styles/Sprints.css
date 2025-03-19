@@ -1,0 +1,111 @@
+.app {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sprint-title {
+  text-align: center;
+  color: #333;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.sprint-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sprint-section-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #003366;
+  margin-top: 20px;
+}
+
+.sprint-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sprint-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sprint-card.completed {
+  background: #f4f4f4;
+  border-left: 5px solid #888;
+}
+
+.sprint-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sprint-status {
+  color: #4c66ff;
+}
+
+.sprint-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.sprint-actions button {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.start-sprint {
+  background-color: green;
+  color: white;
+}
+
+.end-sprint {
+  background-color: red;
+  color: white;
+}
+
+.sprint-btn-delete {
+  background-color: #d9534f;
+  color: white;
+}
+
+.sprint-task-item {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
